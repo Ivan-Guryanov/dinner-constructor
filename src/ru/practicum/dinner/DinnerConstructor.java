@@ -56,5 +56,8 @@ public class DinnerConstructor {
         String selectedDish = availableDishes.get(dishIndex);
         return selectedDish;//выберем произвольное блюдо по индексу
     }
+    public boolean checkingValues(){
+        return dinnersByType.isEmpty();
+    }
 
 }
