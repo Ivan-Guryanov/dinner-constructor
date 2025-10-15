@@ -79,7 +79,7 @@ public class Main {
             // комбинаций блюд с помощью метода DinnerConstructor generateCombos
             for (int i = 0; i < numberOfCombos; i++) {
                 System.out.println("Комбинация " + (i + 1));
-                System.out.println(generatedCombos.get(i)); //выведите каждый элемент получившейся комбинации
+                System.out.println(generatedCombos.get(i));
             }
         }
     }
